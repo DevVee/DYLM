@@ -43,6 +43,8 @@ const images3 = document.querySelector('.IMAGE5');
 
 const toggle = true;
 
+const yehey = document.querySelector('.yehey');
+
 const yesButton = document.querySelector('.yesButton');
     const images54 = document.querySelector('.IMAGE1');
 function changeYes(){
@@ -53,6 +55,7 @@ function changeYes(){
         images5.style.opacity = "0";
         images3.style.opacity = "0";
         images2.style.opacity = "0";
+        yehey.innerHTML = "YEHEYYYYYY!";
     }
     
 }
@@ -72,9 +75,15 @@ var currentImage = 1; // Initial state
       // Set the opacity for the current image
       if (currentImage === 1) {
         images5.style.opacity = "1";
+        yehey.innerHTML = "WHYYYY!";
+
       } else if (currentImage === 2) {
         images3.style.opacity = "1";
+        yehey.innerHTML = "PLEASE LOVE ME:<";
+
       } else if (currentImage === 3) {
+        yehey.innerHTML = "WAHHHHHHH :<<<!";
+
         images2.style.opacity = "1";
       }
     }
