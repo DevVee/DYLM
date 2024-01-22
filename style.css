@@ -12,6 +12,7 @@ img{
     object-fit: center;
     border-radius: 120px;
     padding: 20px;
+   
 }
 
 .main{
@@ -23,14 +24,18 @@ img{
     justify-content: center;
     border: 6px solid black;
     padding: 10px;
+    background-image: url("background.jpg");
+    object-fit: cover;
+    border-radius: 30px;
 }
 
 button{
-    padding: 10px;
-    width: 60px;
+    padding: 12px;
+    width: 80px;
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    font-size: 17px;
 
 }
 
@@ -40,16 +45,18 @@ button{
     position: absolute;
     
     
+    
 }
 
 .yesButton{
     background-color: #2ace45;
     font-weight: bold;
     position: relative;
-    margin-top: 40px;    
+    margin-top: 50px;    
 }
 .buttons{
     display: flex;
+    
     
 }
 .IMAGE2{
@@ -58,11 +65,13 @@ button{
     object-fit: center;
     border-radius: 120px;
     padding: 20px;
+  
 }
 
 .IMAGE1, .IMAGE3, .IMAGE4, .IMAGE5{
 opacity: 0;
 position: absolute;
+
 }
 
 .imagesss{
@@ -72,4 +81,14 @@ position: absolute;
 
 .dylv{
     font-size: 18px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.yey{
+    background-color: rgb(255, 19, 184);
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 60px;
 }
